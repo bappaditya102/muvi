@@ -837,8 +837,16 @@ padding-left: 10px;
 
   /*#toggle-btn{ display: none;}*/
   /*==Dashboard and all Responsive====*/
-  @media (max-width: 1192px) {
+  @media (max-width: 1199px){
+    .side-navbar ul li a span{
+      display: none !important;
+    }
     #toggle-btn{ display: block;}
+  }
+
+
+  @media (max-width: 1192px) {
+    
     nav.navbar{ padding: 10px 0;}
   }
   @media (max-width: 991px) {
