@@ -842,6 +842,9 @@ padding-left: 10px;
       display: none !important;
     }
     #toggle-btn{ display: block;}
+    .side-navbar ul li a[data-toggle="collapse"]::before{
+      display: none;
+    }
   }
 
 
